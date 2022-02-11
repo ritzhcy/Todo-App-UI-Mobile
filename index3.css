@@ -1,0 +1,304 @@
+body 
+{
+    overflow: hidden; 
+}
+.task
+{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.lists
+{
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Raleway';
+    color: rgb(61, 60, 60);
+}
+.material-icons
+{
+    color: red;
+    margin-left: 30%;
+}
+.add-list
+{
+    color: black;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    position: relative;
+    bottom: 73px;
+    margin-left: 72%;
+}
+.section2
+{
+    align-items: center;
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    margin: 0px 5% 5% 5%;
+}
+.box1
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 300px;
+    width: 230px;
+    margin: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding-top: 20px;
+    box-shadow: 7px 7px 8px 0px rgb(214, 199, 199);
+}
+.box2
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 300px;
+    width: 230px;
+    margin: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding-top: 20px;
+    box-shadow: 7px 7px 8px 0px rgb(214, 199, 199);
+}
+.box3
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 300px;
+    width: 230px;
+    margin: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding-top: 20px;
+    box-shadow: 7px 7px 8px 0px rgb(214, 199, 199);
+}
+.box4
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 300px;
+    width: 230px;
+    margin: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding-top: 20px;
+    box-shadow: 7px 7px 8px 0px rgb(214, 199, 199);
+}
+.box5
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 300px;
+    width: 230px;
+    margin: 10px;
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding-top: 20px;
+    box-shadow: 7px 7px 8px 0px rgb(214, 199, 199);
+}
+hr
+{
+    margin-left: 40px;
+}
+.a 
+{
+    font-size: 23px;
+    text-align: center;
+}
+.b 
+{
+    font-size: 20px;
+    position: relative;
+    left: 55px;
+}
+input
+{
+    position: relative;
+    left: 30px;
+}
+label
+{
+    color: black;
+    font-size: 18px;
+    position: relative;
+    left: 35px;
+}
+.page1
+{
+    filter: blur(5px);
+    z-index: -1;
+}
+.create-list
+{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 110px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 400px;
+    margin-left: 480px;
+    padding-top: 30px;
+    background-color: white;
+    padding-bottom: 30px;
+    box-shadow: 7px 7px 8px 0px rgb(214, 199, 199);
+}
+.new
+{
+    color: red;
+    position: relative;
+    left: 150px;
+}
+#test
+{
+    color: red;
+    position: relative;
+    left: 82px;
+    box-shadow: 3px 3px 8px rgb(214, 199, 199);
+    border: 1px solid red;
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.adding
+{
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: red;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: relative;
+    left: 169px;
+}
+@media only screen and (max-width: 600px)
+{
+    .task
+    {
+        margin-top: 50px;
+        position: absolute;
+        width: 75%;
+    }
+    .material-icons
+    {
+        position: relative;
+        top: 65px;
+        left: 230px;
+    }
+    .section2
+    {
+        display: flex;
+        flex-flow: column;
+        height: 0px;
+        width: 80%;
+        line-height: 0ch;
+        margin-top: 150px;
+    }
+    .box1
+    {
+        padding-bottom: 20px;
+        width: 390px;
+        margin-left: 60px;
+    }
+    .box2
+    {
+        padding-bottom: 20px;
+        width: 390px;
+        margin-left: 60px;
+    }
+    .box3
+    {
+        padding-bottom: 20px;
+        width: 390px;
+        margin-left: 60px;
+    }
+    .box4
+    {
+        padding-bottom: 20px;
+        width: 390px;
+        margin-left: 60px;
+    }
+    .box5
+    {
+        padding-bottom: 20px;
+        width: 390px;
+        margin-left: 60px;
+    }
+    .a
+    {
+        text-align: left;
+        position: relative;
+        left: 20px;
+    }
+    del
+    {
+        display: none;
+    }
+    input
+    {
+        display: none;
+    }
+    label
+    {
+        display: none;
+    }
+    hr
+    {
+        display: none;
+    }
+    .add-list
+    {
+        display: none;
+    }
+    .b
+    {
+        display: none;
+    }
+    .create-list
+    {
+        position: absolute;
+        height: 200px;
+        width: 70%;
+        right: 90px;
+        top: 200px;
+    }
+    .new
+    {
+        display: block;
+        margin-top: 7%;
+        position: absolute;
+        left: 155px;
+    }
+    #test
+    {
+        display: block;
+        position: absolute;
+        left: 89px;
+        bottom: 120px;
+    }
+    .adding
+    {
+        position: absolute;
+        top: 180px;
+        left: 180px;
+    }
+}
